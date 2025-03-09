@@ -12,8 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6b194f808b1af6499c93410e504af42, type: 3}
   m_Name: LuckyBonus_Atlas
   m_EditorClassIdentifier: 
-  textureLoadingMode: 0
-  onDemandTextureLoader: {fileID: 0}
   atlasFile: {fileID: 4900000, guid: f1301be34e1914e539f875a9caf8c8e0, type: 3}
   materials:
   - {fileID: 2100000, guid: 760916b15d4524ed1af071daabab1c72, type: 2}
