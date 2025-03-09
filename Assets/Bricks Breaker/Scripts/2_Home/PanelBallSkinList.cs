@@ -46,7 +46,8 @@ public class PanelBallSkinList : MonoBehaviour {
 
 
         //Ball Image Settings
-        imageBall.sprite = (PlayManager.Instance.currentBase as CtrHome).panelBallSkin.GetBallSprite(string.Format("skin_{0}",  ballSkinData.ballName));
+        //imageBall.sprite = (PlayManager.Instance.currentBase as CtrHome).panelBallSkin.GetBallSprite(string.Format("skin_{0}",  ballSkinData.ballName));
+        imageBall.sprite = ballSkinData.Sprite;
         imageBall.SetNativeSize();
 
         if (ballSkinData.isUnlock) {

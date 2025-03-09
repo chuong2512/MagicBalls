@@ -16,6 +16,7 @@ public class BallSkinData {
     public bool isUnlock;
 
     public string ballName;
+    public Sprite Sprite;
     public CostType costType;
     public int cost;
 }
@@ -27,7 +28,6 @@ public class PanelBallSkin : PanelBase {
     public Transform listTransform;
     public PanelBallSkinList selectSkinList;
     public List<PanelBallSkinList> panelBallLists = new List<PanelBallSkinList>();
-    public Sprite[] ballSprites;
     
     /// <summary>
     /// Ball Skin Data Settings
@@ -47,23 +47,6 @@ public class PanelBallSkin : PanelBase {
         }
 
         panelBallLists[GameData.SelectBallNum].Select();
-    }
-
-    
-
-    /// <summary>
-    /// Get the Ballskin Sprite by name.
-    /// </summary>
-    public Sprite GetBallSprite (string name) {
-        Debug.Log(name);
-
-        foreach (Sprite sprite in ballSprites) {
-
-            if (name == sprite.name) {
-                return sprite;
-            }
-        }
-        return null;
     }
 }
 

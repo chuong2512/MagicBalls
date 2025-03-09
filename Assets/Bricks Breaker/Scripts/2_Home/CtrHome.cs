@@ -21,7 +21,7 @@ public class CtrHome : CtrBase
     
     public CanvasGroup canvasGroupHome;
     public MyInfo _MyInfo;
-    float posOpenY = -180f;
+    float posOpenY = -64f;
     float posCloseY = -930f;
     bool isPlay = false;
     public GameObject lockScreen;

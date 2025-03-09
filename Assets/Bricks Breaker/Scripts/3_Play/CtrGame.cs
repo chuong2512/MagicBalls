@@ -178,7 +178,7 @@ public class CtrGame : CtrBase
         PlayManager.Instance.turn = turnCount;
         SoundManager.Instance.PauseBGM();
 
-        if (isContinue)
+        if (true)
         {
             PlayManager.Instance.LoadScene(Data.scene_result);
         }
