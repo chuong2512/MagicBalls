@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using UnityEngine.UI;
 using DG.Tweening;
 
@@ -10,6 +11,12 @@ public class Ball : MonoBehaviour
     private bool isReset = false;
     public int damage = 1;
     public SpriteRenderer spriteBall;
+
+    void Awake()
+    {
+        spriteBall.sprite=DataManager.Instance.CurrentBall();
+    }
+
 
     public void SetData(int damage)
     {

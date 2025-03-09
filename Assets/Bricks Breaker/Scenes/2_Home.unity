@@ -673,7 +673,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.3254902, g: 0.15294118, b: 0.8156863, a: 1}
+  m_Color: {r: 0.49270204, g: 0.6037736, b: 0.5278941, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -47024,7 +47024,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.3254902, g: 0.15294118, b: 0.8156863, a: 1}
+  m_Color: {r: 0.49411765, g: 0.6039216, b: 0.5294118, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -57521,8 +57521,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294935716
-  m_fontColor: {r: 0.6431373, g: 0.5176471, b: 1, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -57643,169 +57643,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isOpen: 0
   canvasGroup: {fileID: 1244193595}
-  ballDatas:
-  - id: 0
-    isUnlock: 0
-    ballName: Basic
-    Sprite: {fileID: 21300000, guid: 64c9fa57a2dbb4a42a29c38447ce3ba9, type: 3}
-    costType: 0
-    cost: 0
-  - id: 1
-    isUnlock: 0
-    ballName: Green
-    Sprite: {fileID: 21300000, guid: f0ef4934fb29143789599dca7139a864, type: 3}
-    costType: 1
-    cost: 35
-  - id: 0
-    isUnlock: 0
-    ballName: Purple
-    Sprite: {fileID: 21300000, guid: b5e673ccc2a5b8d47bd950b62a5b3da2, type: 3}
-    costType: 1
-    cost: 35
-  - id: 0
-    isUnlock: 0
-    ballName: Line ball
-    Sprite: {fileID: 21300000, guid: d81daa53c26bea044b1d21cb93c17b6a, type: 3}
-    costType: 1
-    cost: 35
-  - id: 0
-    isUnlock: 0
-    ballName: Smile
-    Sprite: {fileID: 21300000, guid: 633f54dfa304c4a81a3901405fe29936, type: 3}
-    costType: 2
-    cost: 35
-  - id: 0
-    isUnlock: 0
-    ballName: Gem
-    Sprite: {fileID: 21300000, guid: 8a6532e7c54034e5a96f99b22ec69e44, type: 3}
-    costType: 2
-    cost: 35
-  - id: 0
-    isUnlock: 0
-    ballName: Planet
-    Sprite: {fileID: 21300000, guid: c6808912ba7b24a3eb7e15346c5260b0, type: 3}
-    costType: 2
-    cost: 35
-  - id: 0
-    isUnlock: 0
-    ballName: Fire ball
-    Sprite: {fileID: 21300000, guid: 7a5e7c32e3c7349df8abe1bb427a4d13, type: 3}
-    costType: 2
-    cost: 35
-  - id: 0
-    isUnlock: 0
-    ballName: Rainbow
-    Sprite: {fileID: 21300000, guid: c21ded995f2fe4cf9a7ce911a9481ab9, type: 3}
-    costType: 1
-    cost: 750
-  - id: 0
-    isUnlock: 0
-    ballName: Thorny ball
-    Sprite: {fileID: 21300000, guid: e439ff6bf3f1a2b4092a21ca3eb444d3, type: 3}
-    costType: 2
-    cost: 25
-  - id: 0
-    isUnlock: 0
-    ballName: Beam ball
-    Sprite: {fileID: 21300000, guid: 9ce9a629f076b4873ae11d7e2ea1d1d5, type: 3}
-    costType: 2
-    cost: 15
-  - id: 0
-    isUnlock: 0
-    ballName: Poison
-    Sprite: {fileID: 21300000, guid: 6bfaef9d5814e47518970012ec413718, type: 3}
-    costType: 2
-    cost: 35
-  - id: 0
-    isUnlock: 0
-    ballName: Tennis ball
-    Sprite: {fileID: 21300000, guid: 7e0b8dc88a2a147fc9e24834ee593ca9, type: 3}
-    costType: 1
-    cost: 500
-  - id: 0
-    isUnlock: 0
-    ballName: Bolt ball
-    Sprite: {fileID: 21300000, guid: cb446bfcbf7b34c31bbbd8bda01ebe02, type: 3}
-    costType: 2
-    cost: 35
-  - id: 0
-    isUnlock: 0
-    ballName: Special Ball 4
-    Sprite: {fileID: 21300000, guid: d67c4ad5f486a3745b6e88cc51e06143, type: 3}
-    costType: 2
-    cost: 15
-  - id: 0
-    isUnlock: 0
-    ballName: Yellow
-    Sprite: {fileID: 21300000, guid: 52a23c1ae1e5b43938d1db30680696b9, type: 3}
-    costType: 1
-    cost: 500
-  - id: 0
-    isUnlock: 0
-    ballName: 'Special Ball 1 '
-    Sprite: {fileID: 21300000, guid: dff2e49ec9fd84411b9d56302c6c69cc, type: 3}
-    costType: 2
-    cost: 15
-  - id: 0
-    isUnlock: 0
-    ballName: Ninja Star
-    Sprite: {fileID: 21300000, guid: 0130ced1411cb469c985b5622ec80757, type: 3}
-    costType: 1
-    cost: 750
-  - id: 0
-    isUnlock: 0
-    ballName: Special Ball 6
-    Sprite: {fileID: 21300000, guid: edf6deb37bd94074dba95aba4e40f273, type: 3}
-    costType: 1
-    cost: 500
-  - id: 0
-    isUnlock: 0
-    ballName: 'Special Ball 5 '
-    Sprite: {fileID: 21300000, guid: f4996e97e71d2e740bdd6f39001e7969, type: 3}
-    costType: 1
-    cost: 750
-  - id: 0
-    isUnlock: 0
-    ballName: 'Special Ball 2 '
-    Sprite: {fileID: 21300000, guid: 2a7459ba0201a604ca2116b9cc41b83c, type: 3}
-    costType: 1
-    cost: 500
-  - id: 0
-    isUnlock: 0
-    ballName: Special Ball 7
-    Sprite: {fileID: 21300000, guid: ca0a211aa6c87634bab071333a7d813b, type: 3}
-    costType: 1
-    cost: 500
-  - id: 0
-    isUnlock: 0
-    ballName: Special Ball 8
-    Sprite: {fileID: 21300000, guid: 9b4763236083f964fae57ec09bea4ceb, type: 3}
-    costType: 1
-    cost: 750
-  - id: 0
-    isUnlock: 0
-    ballName: Special Ball 9
-    Sprite: {fileID: 21300000, guid: de3cb20106f6d4846902b5b82b963871, type: 3}
-    costType: 1
-    cost: 500
-  - id: 0
-    isUnlock: 0
-    ballName: Special Ball 10
-    Sprite: {fileID: 21300000, guid: de2a8a71bcab8e94c8ef091aa0139b82, type: 3}
-    costType: 1
-    cost: 500
-  - id: 0
-    isUnlock: 0
-    ballName: Special Ball 11
-    Sprite: {fileID: 21300000, guid: 63ea10a56d74bd24dae7b6a308e003a8, type: 3}
-    costType: 1
-    cost: 500
-  - id: 0
-    isUnlock: 0
-    ballName: 'Special Ball 3 '
-    Sprite: {fileID: 21300000, guid: 283cf333d08f1dd43b81aabdb16c88eb, type: 3}
-    costType: 1
-    cost: 500
   pListSlot: {fileID: 8248633363121429224, guid: d09785069a4cb4da1b30f600c58380e3, type: 3}
   listTransform: {fileID: 1233184929}
   selectSkinList: {fileID: 0}
@@ -62264,6 +62101,213 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1478502361}
   m_CullTransparentMesh: 0
+--- !u!1 &1481264170
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1481264172}
+  - component: {fileID: 1481264171}
+  m_Layer: 0
+  m_Name: SkinData
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1481264171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1481264170}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32bdc56780bedaf4cb3b28cdacd19c62, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ballDatas:
+  - id: 0
+    isUnlock: 0
+    ballName: Basic
+    Sprite: {fileID: 21300000, guid: 64c9fa57a2dbb4a42a29c38447ce3ba9, type: 3}
+    costType: 0
+    cost: 0
+  - id: 1
+    isUnlock: 0
+    ballName: Green
+    Sprite: {fileID: 21300000, guid: f0ef4934fb29143789599dca7139a864, type: 3}
+    costType: 1
+    cost: 35
+  - id: 0
+    isUnlock: 0
+    ballName: Purple
+    Sprite: {fileID: 21300000, guid: b5e673ccc2a5b8d47bd950b62a5b3da2, type: 3}
+    costType: 1
+    cost: 35
+  - id: 0
+    isUnlock: 0
+    ballName: Line ball
+    Sprite: {fileID: 21300000, guid: d81daa53c26bea044b1d21cb93c17b6a, type: 3}
+    costType: 1
+    cost: 35
+  - id: 0
+    isUnlock: 0
+    ballName: Smile
+    Sprite: {fileID: 21300000, guid: 633f54dfa304c4a81a3901405fe29936, type: 3}
+    costType: 2
+    cost: 35
+  - id: 0
+    isUnlock: 0
+    ballName: Gem
+    Sprite: {fileID: 21300000, guid: 8a6532e7c54034e5a96f99b22ec69e44, type: 3}
+    costType: 2
+    cost: 35
+  - id: 0
+    isUnlock: 0
+    ballName: Planet
+    Sprite: {fileID: 21300000, guid: c6808912ba7b24a3eb7e15346c5260b0, type: 3}
+    costType: 2
+    cost: 35
+  - id: 0
+    isUnlock: 0
+    ballName: Fire ball
+    Sprite: {fileID: 21300000, guid: 7a5e7c32e3c7349df8abe1bb427a4d13, type: 3}
+    costType: 2
+    cost: 35
+  - id: 0
+    isUnlock: 0
+    ballName: Rainbow
+    Sprite: {fileID: 21300000, guid: c21ded995f2fe4cf9a7ce911a9481ab9, type: 3}
+    costType: 1
+    cost: 750
+  - id: 0
+    isUnlock: 0
+    ballName: Thorny ball
+    Sprite: {fileID: 21300000, guid: e439ff6bf3f1a2b4092a21ca3eb444d3, type: 3}
+    costType: 2
+    cost: 25
+  - id: 0
+    isUnlock: 0
+    ballName: Beam ball
+    Sprite: {fileID: 21300000, guid: 9ce9a629f076b4873ae11d7e2ea1d1d5, type: 3}
+    costType: 2
+    cost: 15
+  - id: 0
+    isUnlock: 0
+    ballName: Poison
+    Sprite: {fileID: 21300000, guid: 6bfaef9d5814e47518970012ec413718, type: 3}
+    costType: 2
+    cost: 35
+  - id: 0
+    isUnlock: 0
+    ballName: Tennis ball
+    Sprite: {fileID: 21300000, guid: 7e0b8dc88a2a147fc9e24834ee593ca9, type: 3}
+    costType: 1
+    cost: 500
+  - id: 0
+    isUnlock: 0
+    ballName: Bolt ball
+    Sprite: {fileID: 21300000, guid: cb446bfcbf7b34c31bbbd8bda01ebe02, type: 3}
+    costType: 2
+    cost: 35
+  - id: 0
+    isUnlock: 0
+    ballName: Special Ball 4
+    Sprite: {fileID: 21300000, guid: d67c4ad5f486a3745b6e88cc51e06143, type: 3}
+    costType: 2
+    cost: 15
+  - id: 0
+    isUnlock: 0
+    ballName: Yellow
+    Sprite: {fileID: 21300000, guid: 52a23c1ae1e5b43938d1db30680696b9, type: 3}
+    costType: 1
+    cost: 500
+  - id: 0
+    isUnlock: 0
+    ballName: 'Special Ball 1 '
+    Sprite: {fileID: 21300000, guid: dff2e49ec9fd84411b9d56302c6c69cc, type: 3}
+    costType: 2
+    cost: 15
+  - id: 0
+    isUnlock: 0
+    ballName: Ninja Star
+    Sprite: {fileID: 21300000, guid: 0130ced1411cb469c985b5622ec80757, type: 3}
+    costType: 1
+    cost: 750
+  - id: 0
+    isUnlock: 0
+    ballName: Special Ball 6
+    Sprite: {fileID: 21300000, guid: edf6deb37bd94074dba95aba4e40f273, type: 3}
+    costType: 1
+    cost: 500
+  - id: 0
+    isUnlock: 0
+    ballName: 'Special Ball 5 '
+    Sprite: {fileID: 21300000, guid: f4996e97e71d2e740bdd6f39001e7969, type: 3}
+    costType: 1
+    cost: 750
+  - id: 0
+    isUnlock: 0
+    ballName: 'Special Ball 2 '
+    Sprite: {fileID: 21300000, guid: 2a7459ba0201a604ca2116b9cc41b83c, type: 3}
+    costType: 1
+    cost: 500
+  - id: 0
+    isUnlock: 0
+    ballName: Special Ball 7
+    Sprite: {fileID: 21300000, guid: ca0a211aa6c87634bab071333a7d813b, type: 3}
+    costType: 1
+    cost: 500
+  - id: 0
+    isUnlock: 0
+    ballName: Special Ball 8
+    Sprite: {fileID: 21300000, guid: 9b4763236083f964fae57ec09bea4ceb, type: 3}
+    costType: 1
+    cost: 750
+  - id: 0
+    isUnlock: 0
+    ballName: Special Ball 9
+    Sprite: {fileID: 21300000, guid: de3cb20106f6d4846902b5b82b963871, type: 3}
+    costType: 1
+    cost: 500
+  - id: 0
+    isUnlock: 0
+    ballName: Special Ball 10
+    Sprite: {fileID: 21300000, guid: de2a8a71bcab8e94c8ef091aa0139b82, type: 3}
+    costType: 1
+    cost: 500
+  - id: 0
+    isUnlock: 0
+    ballName: Special Ball 11
+    Sprite: {fileID: 21300000, guid: 63ea10a56d74bd24dae7b6a308e003a8, type: 3}
+    costType: 1
+    cost: 500
+  - id: 0
+    isUnlock: 0
+    ballName: 'Special Ball 3 '
+    Sprite: {fileID: 21300000, guid: 283cf333d08f1dd43b81aabdb16c88eb, type: 3}
+    costType: 1
+    cost: 500
+--- !u!4 &1481264172
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1481264170}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.18044472, y: -3.6928186, z: 0.08751786}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1490869022
 GameObject:
   m_ObjectHideFlags: 0
@@ -94707,7 +94751,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.36862746, g: 0.1882353, b: 0.8901961, a: 1}
+  m_Color: {r: 0.18867922, g: 0.13260946, b: 0.13260946, a: 0.44705883}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -94793,3 +94837,4 @@ SceneRoots:
   - {fileID: 2144720243}
   - {fileID: 1436974778}
   - {fileID: 1635869946}
+  - {fileID: 1481264172}

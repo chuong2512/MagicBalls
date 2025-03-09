@@ -7,10 +7,11 @@ using UnityEngine.Purchasing;
 
 public class IAPKey
 {
-    public const string PACK1 = "add1";
-    public const string PACK2 = "add3";
-    public const string PACK3 = "add5";
-    public const string PACK4 = "add10";
+    public const string PACK1 = "add_gem_magic_ball_1";
+    public const string PACK2 = "add_gem_magic_ball_2";
+    public const string PACK3 = "add_gem_magic_ball_3";
+    public const string PACK4 = "add_gem_magic_ball_4";
+    public const string PACK5 = "add_gem_magic_ball_5";
 }
 
 public class IAPManager : PersistentSingleton<IAPManager>, IStoreListener
@@ -47,6 +48,7 @@ public class IAPManager : PersistentSingleton<IAPManager>, IStoreListener
         builder.AddProduct(IAPKey.PACK2, ProductType.Consumable);
         builder.AddProduct(IAPKey.PACK3, ProductType.Consumable);
         builder.AddProduct(IAPKey.PACK4, ProductType.Consumable);
+        builder.AddProduct(IAPKey.PACK5, ProductType.Consumable);
         UnityPurchasing.Initialize(this, builder);
     }
 
