@@ -38,7 +38,7 @@ public class PanelMyPage : PanelBase
         textName.text = GameData.NickName;
 
         textBestScore.text = Utility.ChangeThousandsSeparator(GameData.BestScore); //베스트 스코어 표시
-        textTurn.text = string.Format("TURN {0}", GameData.BestTurn); //베스트 턴 표시
+        textTurn.text = string.Format("{0}", GameData.BestTurn); //베스트 턴 표시
 
         textCountPlay.text = Utility.ChangeThousandsSeparator(GameData.CountPlay); //게임 횟수 표시
         textCountBreakBricks.text = Utility.ChangeThousandsSeparator(GameData.CountBreakBricks); //블럭 파괴 수 표시
