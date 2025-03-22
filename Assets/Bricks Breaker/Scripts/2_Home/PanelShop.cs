@@ -119,6 +119,37 @@ public class PanelShop : PanelBase
 
 		switch (id)
 		{
+			case 0:
+				IAPManager.OnPurchaseSuccess=() =>
+					PlayManager.Instance.commonUI._GetItem.GetGem(30,listTransformGem[id].position);
+
+				IAPManager.Instance.BuyProductID(IAPKey.PACK1);
+				break;
+			case 1:
+				IAPManager.OnPurchaseSuccess=() =>
+					PlayManager.Instance.commonUI._GetItem.GetGem(80,listTransformGem[id].position);
+				IAPManager.Instance.BuyProductID(IAPKey.PACK2);
+				break;
+			case 2:
+				IAPManager.OnPurchaseSuccess=() =>
+					PlayManager.Instance.commonUI._GetItem.GetGem(170,listTransformGem[id].position);
+				IAPManager.Instance.BuyProductID(IAPKey.PACK3);
+				break;
+			case 3:
+				IAPManager.OnPurchaseSuccess=() =>
+					PlayManager.Instance.commonUI._GetItem.GetGem(360,listTransformGem[id].position);
+				IAPManager.Instance.BuyProductID(IAPKey.PACK4);
+				break;
+			case 4:
+				IAPManager.OnPurchaseSuccess=() =>
+					PlayManager.Instance.commonUI._GetItem.GetGem(950,listTransformGem[id].position);
+				IAPManager.Instance.BuyProductID(IAPKey.PACK5);
+				break;
+			case 5:
+				IAPManager.OnPurchaseSuccess=() =>
+					PlayManager.Instance.commonUI._GetItem.GetGem(2000,listTransformGem[id].position);
+				IAPManager.Instance.BuyProductID(IAPKey.PACK1);
+				break;
 		}
 	}
 
