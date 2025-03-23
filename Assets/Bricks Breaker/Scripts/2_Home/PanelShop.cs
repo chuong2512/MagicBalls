@@ -14,8 +14,8 @@ public class PanelShop : PanelBase
 
 
 	int[] buyGemValue =new int[6] {30,80,170,360,950,2000};
-	int[] buyCoinValue=new int[3] {150,400,1200};
-	int[] buyCoinCost =new int[3] {20,50,140};
+	int[] buyCoinValue=new int[6] {150,400,1200,2000,3000,5000};
+	int[] buyCoinCost =new int[6] {20,50,140,180,280,450};
 
 	public CanvasGroup[] freeList;
 	//public GameObject buttonNoads;
@@ -42,13 +42,13 @@ public class PanelShop : PanelBase
 
 		for(int i=0;i<textCoinValue.Length;i++)
 		{
-			textCoinValue[i].text=Utility.ChangeThousandsSeparator(buyCoinValue[i]);
+			textCoinValue[i].text="x"+Utility.ChangeThousandsSeparator(buyCoinValue[i]);
 			textCoinCost[i].text =Utility.ChangeThousandsSeparator(buyCoinCost[i]);
 		}
 
 		for(int i=0;i<buyGemValue.Length;i++)
 		{
-			textGemValue[i].text=Utility.ChangeThousandsSeparator(buyGemValue[i]);
+			textGemValue[i].text="x"+Utility.ChangeThousandsSeparator(buyGemValue[i]);
 		}
 
 		base.Open();
@@ -148,7 +148,7 @@ public class PanelShop : PanelBase
 			case 5:
 				IAPManager.OnPurchaseSuccess=() =>
 					PlayManager.Instance.commonUI._GetItem.GetGem(2000,listTransformGem[id].position);
-				IAPManager.Instance.BuyProductID(IAPKey.PACK1);
+				IAPManager.Instance.BuyProductID(IAPKey.PACK6);
 				break;
 		}
 	}
